@@ -13,12 +13,12 @@
 
 <header>
     <div>
-        <nav class="navbar nav-pills fixed-top navbar-dark bg-dark container">
-            <a class="nav-link active" href="#top">Me!</a>
+        <nav class="navbar nav-tabs fixed-top navbar-dark bg-dark container">
+            <a class="nav-link " href="#top">Me!</a>
             <a class="nav-link text-light" href=" #academy">Academy</a>
-            <a class="nav-link active" href="#work">Work Experience</a>
+            <a class="nav-link " href="#work">Work Experience</a>
             <a class="nav-link text-light" href="#personal">Personal Life</a>
-            <a class="nav-link active" href="#hobbies">Hobbies!</a>
+            <a class="nav-link " href="#hobbies">Hobbies!</a>
         </nav>
     </div>
 </header>
@@ -27,6 +27,12 @@
     <div class="container">
         <div id="me" class="mx-auto">
             <table>
+                <br>
+                <th>
+                    <div>
+                        <img src="./assets/imagenes/Foto.png" class="rounded float-right">
+                    </div>
+                </th>
                 <th class="col-8">
                     <div>
                         <h1>
@@ -37,34 +43,34 @@
                         </h1>
                     </div>
                 </th>
-                <br>
-                <th class="col-8 p6">
-                    <div>
-                        <img src="./assets/imagenes/Foto.png" class="rounded float-right">
-                    </div>
-                </th>
             </table>
+            <br><br>
             <h2>Who am I?</h2>
             <p>I was born in Colombia, but I would like to live in every city / town in the world! I have always liked
                 music, especially rock because of that I decided to study guitar and since I was 14 I like to learn
                 songs from my favorite artists.</p>
         </div>
         <div id="academy">
-            <br>
-            <h2>Academic Profile</h2>
-            <h4>Universidad Santiago de Cali</h4>
-            <ul>
-                <li>2009 - 2011 Systems Technician</li>
-                <li>2012 - 2015 Systems Engineer</li>
-            </ul>
-
-            <h4>Three Points - UPC</h4>
-            <p> Currently I am studying a Master in Full Stack Web Development at Three Points School. Check it out >>
-                <a href="https://www.threepoints.com/master-en-full-stack-web-development" class="badge badge-primary">
-                    Master in Full Stack Web Development at Three Points School.
-                </a>
-            </p>
+            <div>
+                <br>
+                <h2>Academic Profile</h2>
+                <br>
+                <h4>Universidad Santiago de Cali</h4>
+                <ul>
+                    <li>2009 - 2011 Systems Technician</li>
+                    <li>2012 - 2015 Systems Engineer</li>
+                </ul>
+                <br>
+                <h4>Three Points - UPC</h4>
+                <p> Currently I am studying a Master in Full Stack Web Development at Three Points School. Check it out:
+                    <a href="https://www.threepoints.com/master-en-full-stack-web-development"
+                        class="badge badge-primary">
+                        Master in Full Stack Web Development at Three Points School.
+                    </a>
+                </p>
+            </div>
         </div>
+        <br><br>
         <div id="work">
             <h2>Profesional Profile</h2>
             <p>I decided to study Systems Engineering because I always liked computers.
@@ -72,30 +78,34 @@
                 and I saw that there was a lot of potential in the area of software development. That's why, of all
                 the branches that software has, I decided on programming, because I like
                 solve real life problems and reflect them in code to see the final product
-                alive in production! If you want to see more of my experience enter
-                <a href="https://www.linkedin.com/in/andres-ospina-75491756/">
-                    <span>here in my LinkedIn profile :D</span></a>
+                alive in production! If you want to see more of my experience enter here in my
+                <button type="button" class="btn btn-primary btn-sm"><a class="text-light"
+                        href="https://www.linkedin.com/in/andres-ospina-75491756/">
+                        <span>LinkedIn profile</span></a>.</button>
             </p>
         </div>
+        <br><br>
         <div id="personal">
             <h2>Personal Profile</h2>
             <p>I like to share my experiences with friends, especially when we play covers of other bands.
                 I also like to help other people by making donations to the church or any foundation, not only
                 to help humans but also animals in situations of abuse, abandonment and disability.</p>
         </div>
+        <br><br>
         <div>
             <h2>Family Profile</h2>
             <p>I am a person of family mainly. I really like to share with my son and my wife,
                 we go to restaurants that we do not know or that have been recommended to us as well as try
                 a good hamburger or a good salchipapa with good sauce</p>
         </div>
-        <div id="hobbies">
+        <br><br>
+        <div id="hobbies" class="confusion">
             <a href="#5"></a>
             <h2>Hobbies!!!</h2>
             <p>I like to do many things, but I will try to mention them according to their category:</p>
-            <div class="card-deck">
-                <div class="card bg-dark border-secondary"">
-                    <img class="card-img-top img-thumbnail" src="./assets/imagenes/skate.jpg" alt="Card image cap">
+            <div class="card-group">
+                <div class="card bg-dark border-secondary" alt="Card image cap">
+                    <img class=" card-img-top " src=" ./assets/imagenes/skate.jpg">
                     <div class="card-body">
                         <h5 class="card-title">Sports</h5>
                         <p class="card-text">Play soccer or soccer (to avoid confusion). I practiced it for a few years
@@ -110,8 +120,8 @@
                     </div>
                 </div>
                 <br>
-                <div class="card bg-dark border-secondary">
-                    <img class="card-img-top img-thumbnail img-hobbies" width="200" src="./assets/imagenes/guitar.jpg" alt="Card image cap">
+                <div class="card bg-dark border-secondary" alt="Card image cap">
+                    <img class="card-img-top img-hobbies" src="./assets/imagenes/guitar.jpg">
                     <div class="card-body">
                         <h5 class="card-title">Art</h5>
                         <p class="card-text">I love music specially rock. I have a rock band with my friends and I am
@@ -126,8 +136,8 @@
                     </div>
                 </div>
                 <br>
-                <div class="card bg-dark border-secondary">
-                    <img class="card-img-top img-thumbnail" src="./assets/imagenes/fornite.jpeg" alt="Card image cap">
+                <div class="card bg-dark border-secondary" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/imagenes/fornite.jpeg">
                     <div class="card-body">
                         <h5 class="card-title">Videogames</h5>
                         <p class="card-text">I always enjoy playing video games, I have a PlayStation 4 and a Nintendo
