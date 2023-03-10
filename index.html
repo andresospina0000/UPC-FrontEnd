@@ -15,9 +15,9 @@
     <div>
         <nav class="navbar nav-pills fixed-top navbar-dark bg-dark container">
             <a class="nav-link active" href="#top">Me!</a>
-            <a class="nav-link" href="#academy">Academy</a>
+            <a class="nav-link text-light href=" #academy">Academy</a>
             <a class="nav-link active" href="#work">Work Experience</a>
-            <a class="nav-link " href="#personal">Personal Life</a>
+            <a class="nav-link text-light" href="#personal">Personal Life</a>
             <a class="nav-link active" href="#hobbies">Hobbies!</a>
         </nav>
     </div>
@@ -37,7 +37,7 @@
                 </th>
                 <th class="px">
                     <div>
-                        <img src="./assets/imagenes/Foto.png">
+                        <img src="./assets/imagenes/Foto.png" class="rounded float-right">
                     </div>
                 </th>
             </table>
@@ -56,8 +56,9 @@
 
             <h4>Three Points - UPC</h4>
             <p> Currently I am studying a Master in Full Stack Web Development at Three Points School. Check it out >>
-                <a href="https://www.threepoints.com/master-en-full-stack-web-development">Master
-                    in Full Stack Web Development at Three Points School.</a>
+                <a href="https://www.threepoints.com/master-en-full-stack-web-development" class="badge badge-primary">
+                    Master in Full Stack Web Development at Three Points School.
+                </a>
             </p>
         </div>
         <div id="work">
@@ -86,34 +87,54 @@
         </div>
         <div id="hobbies">
             <a href="#5"></a>
-            <h2>Hobbies</h2>
+            <h2>Hobbies!!!</h2>
             <p>I like to do many things, but I will try to mention them according to their category:</p>
-            <table border="1">
-                <tr>
-                    <th>Sports</th>
-                    <th>Art</th>
-                    <th>Videogames</th>
-                </tr>
-                <tr>
-                    <td>Play soccer or soccer (to avoid confusion). I practiced it for a few years when I was
-                        a child.
-                        Then it became less frequent in my life because I decided to try Skateboarding, which I
-                        currently practice as a novice.
-                    </td>
-                    <td>I love music specially rock. I have a rock band with my friends and I am one of the
-                        guitarists. I really like classic rock like Led Zeppelin, Deep Purple and Black Sabbath. Metal
-                        is also one of my favorites, I listen to it <strong>DAILY.</strong></td>
-                    <td>I always enjoy playing video games, I have a PlayStation 4 and a Nintendo Switch.
-                        I play Fornite almost daily!
-                    </td>
-
-                </tr>
-                <tr>
-                    <td><img src="./assets/imagenes/skate.jpg" alt="Skateboarding" width="100"></td>
-                    <td><img src="./assets/imagenes/guitar.jpg" alt="Electric Guitar" width="100"></td>
-                    <td><img src="./assets/imagenes/fornite.jpeg" alt="Fornite" width="100"></td>
-                </tr>
-            </table>
+            <div class="card-deck">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="./assets/imagenes/skate.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Sports</h5>
+                        <p class="card-text">Play soccer or soccer (to avoid confusion). I practiced it for a few years
+                            when
+                            I was
+                            a child.
+                            Then it became less frequent in my life because I decided to try Skateboarding, which I
+                            currently practice as a novice.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <br>
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="./assets/imagenes/guitar.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Art</h5>
+                        <p class="card-text">I love music specially rock. I have a rock band with my friends and I am
+                            one of
+                            the
+                            guitarists. I really like classic rock like Led Zeppelin, Deep Purple and Black Sabbath.
+                            Metal
+                            is also one of my favorites, I listen to it <strong>DAILY.</strong></p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <br>
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="./assets/imagenes/fornite.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Videogames</h5>
+                        <p class="card-text">I always enjoy playing video games, I have a PlayStation 4 and a Nintendo
+                            Switch.
+                            I play Fornite almost daily!</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
